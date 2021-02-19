@@ -1,0 +1,128 @@
+@media (max-width: 424px){
+    #mainPcc{
+        background-position: -760px -690px, 180px 230px;
+        background-color: black;
+    }
+    
+    .boxProfile{
+        min-width: 300px;
+        min-height: 350px;        
+        background-position: 0px 0px;
+    }
+
+    .photoProfile{
+        width: 120px;
+        height: 120px;
+    }
+
+    .contentInfo{
+        width: 230px;
+        font-size: 1.3rem;
+        padding: 5px 0 0;
+        line-height: 20px;
+        margin-top: 10px;
+    }
+
+    .boxInfo{
+        max-width: 230px;
+    }
+
+    .infoText strong{
+        font-size: 1.3rem;
+    }
+
+    .border{
+        margin: 15px 0;
+    }
+}
+
+@media (min-width: 425px) and (max-width: 767px){
+    #mainPcc{
+        background-position: -750px -600px, 300px 300px;
+        background-color: black;
+    }
+
+    .boxProfile{
+        min-width: 300px;
+        height: 315px;        
+        background-position: 0px -10px;
+    }
+
+    .photoProfile{
+        margin-top: 80px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px){
+    #mainPcc{
+        background-position: -450px -700px, 350px 350px;
+        background-color: black;
+    }
+
+    .boxProfile{
+        min-width: 300px;
+        height: 315px;        
+        background-position: 0px -5px;
+    }
+
+    .photoProfile{
+        margin-top: 85px;
+    }
+}
+
+@media (min-width: 1024px) and (max-width: 1199px){
+    #mainPcc{
+        background-position: -450px -700px, 500px 350px;
+        background-color: black;
+    }
+
+    .boxProfile{
+        min-width: 300px;
+        height: 310px;        
+        background-position: 0px -10px;
+    }
+
+    .photoProfile{
+        margin-top: 80px;
+    }
+}
+
+@media(min-width:1200px){
+    #mainPcc{
+        background-position: -300px -650px, 610px 380px;
+        background-color: black;
+    }
+
+    .boxProfile{
+        min-width: 300px;
+        height: 350px;        
+        background-position: 0px -10px;
+    }
+
+    .photoProfile{
+        width: 110px;
+        height: 110px;
+        margin-top: 75px;
+    }
+
+    .contentInfo{ 
+        width: 235px;
+        font-size: 1.2rem;
+        padding: 5px 0 0;
+        line-height: 25px;
+        margin-top: 5px;
+    }
+
+    .border{
+        margin: 20px 0;
+    }
+
+    .boxInfo{  
+        width: 235px;
+    }
+
+    .infoText strong{
+        font-size: 1.2rem;
+        margin-top: 5px;
+    }
+}
